@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TicTacToe</title>
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
+
+    <body>
+        <h1>Tic-Tac-Toe</h1>
+        <table>
+            <tr>
+                <th onclick="play(0)" id="space0">
+                    <img id="image0" src="./images/blank.png">
+                </th>
+                <th onclick="play(1)" id="space1">
+                    <img id="image1" src="./images/blank.png">
+                </th>
+                <th onclick="play(2)" id="space2">
+                    <img id="image2" src="./images/blank.png">
+                </th>
+            </tr>
+            <tr>
+                <th onclick="play(3)" id="space3">
+                    <img id="image3" src="./images/blank.png">
+                </th>
+                <th onclick="play(4)" id="space4">
+                    <img id="image4" src="./images/blank.png">
+                </th>
+                <th onclick="play(5)" id="space5">
+                    <img id="image5" src="./images/blank.png">
+                </th>
+            </tr>
+            <tr>
+                <th onclick="play(6)" id="space6">
+                    <img id="image6" src="./images/blank.png">
+                </th>
+                <th onclick="play(7)" id="space7">
+                    <img id="image7" src="./images/blank.png">
+                </th>
+                <th onclick="play(8)" id="space8">
+                    <img id="image8" src="./images/blank.png">
+                </th>
+            </tr>
+        </table>
+        <h2 id="message">&nbsp</h2>
+        <button onclick="start()">Start New Game</button>
+
+        <script src="./javascript/index.js"></script>
+
+    </body>
+</html>
